@@ -1,0 +1,51 @@
+.page {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.formRow {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input,
+select,
+button {
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  cursor: pointer;
+}
+
+.taskForm {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.taskForm input,
+.taskForm select,
+.taskForm button,
+.taskForm textarea {
+  height: 36px;
+}
+
+.taskForm textarea {
+  resize: none;
+  width: 220px;
+}
+
+.taskForm input[type="text"] {
+  width: 140px;
+}
+
+.title {
+    text-align: center;
+}

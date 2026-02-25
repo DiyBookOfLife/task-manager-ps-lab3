@@ -1,0 +1,94 @@
+.taskCard {
+  list-style: none;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 1rem;
+  background: #fff;
+  transition: transform 120ms ease, box-shadow 120ms ease;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.04);
+}
+
+.taskHeader {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: start;
+}
+
+.titleBlock {
+  flex: 1;
+  min-width: 0;
+}
+
+.taskTitle {
+  margin: 0;
+  font-size: 18px;
+}
+
+.taskDesc {
+  margin-top: 4px;
+  color: #4b5563;
+  font-size: 14px;
+}
+
+.actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.statusSelect {
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+}
+
+.deleteBtn {
+  padding: 0.5rem 0.75rem;
+  border-radius: 10px;
+  border: 1px solid #ef4444;
+  background: #ef4444;
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.metaRow {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.75rem;
+}
+
+.pill {
+  padding: 4px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/* STATUS COLORS */
+
+.pending {
+  background: #fffbeb;
+}
+
+.in-progress {
+  background: #eff6ff;
+}
+
+.completed {
+  background: #f0fdf4;
+}
+
+/* PRIORITY COLORS */
+
+.low {
+  background: #e0f2fe;
+}
+
+.medium {
+  background: #ede9fe;
+}
+
+.high {
+  background: #fee2e2;
+}
